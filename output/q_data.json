@@ -1,0 +1,722 @@
+{
+  "9ecbade97c7f3f3df33557902c16274451c34cb52d8f92730f5e97522f7a3446": {
+    "email": 0.0419,
+    "notification": 0.1394,
+    "sms": 0.0476
+  },
+  "35ee4b2eb5302ef36b99cbed2fe31317baa5f1edb996286e6884b259ab828426": {
+    "email": -0.0327,
+    "sms": -0.0124,
+    "notification": 0.0346
+  },
+  "e5ddf15dc61b0a74f602fe6d6a494fa2dce6aeca8258d8974e928be54a204753": {
+    "notification": 0.0304,
+    "email": 0.1769,
+    "sms": 0.0471
+  },
+  "d1f2f4a6b4107ac829ae571152240ef8526cc3440e46a49372e06574f57e5246": {
+    "email": -0.0106,
+    "notification": 0.1732,
+    "sms": -0.0232
+  },
+  "dd3cb5f5606c73481423c04dddf65075839dc2acb2771e7c6872fa7cd89bb986": {
+    "sms": 0.146,
+    "notification": 0.0212,
+    "email": 0.022
+  },
+  "9182127afdc11fa7bf2f245ebfb659341676fe97e9d3d41e6d725fde536e44b5": {
+    "sms": -0.0008,
+    "email": -0.017,
+    "notification": -0.0121
+  },
+  "ab98ccc6e1b9d219a0fb1b82c88dd43118bd9abb9b18c41cc6faf57696b71e1f": {
+    "sms": 0.0231,
+    "email": 0.058,
+    "notification": 0.4302
+  },
+  "f4fa54e9ee822f7d3f6edf80fd1be03cb6d7d68e1fb4b95f16fc1eab9a4dcc33": {
+    "notification": 0.1132,
+    "sms": 0.4132,
+    "email": 0.0568
+  },
+  "10b0b155b7593449b07e7d899765b7e6b218ef0fe59f91b27d4136231f44a00a": {
+    "sms": -0.0141,
+    "notification": -0.0346,
+    "email": 0.2548
+  },
+  "347898874c1012da25c3cf0aeebc991bd27d7cfc255491f8f868c66aebbb7254": {
+    "notification": -0.0004,
+    "sms": 0.0857,
+    "email": 0.2295
+  },
+  "061b50719ec6ea693e69290a11ea870d9f3fdb26a1450ee13a5dc6e2ea7648c9": {
+    "email": 0.0045,
+    "notification": 0.0247,
+    "sms": 0.2162
+  },
+  "ee538fc95402bae4ec26ca81ebc98806aba095d62e64c3c439194f7ee6942339": {
+    "notification": 0.0214,
+    "email": 0.0137,
+    "sms": 0.1177
+  },
+  "f968791ab10055f78479e52f942b87121cba3a58990ef5d40798be486062f5cb": {
+    "sms": -0.028,
+    "email": -0.0034,
+    "notification": 0.1211
+  },
+  "0739f41338be690c91612f78d92e93dcb0cd38153dc34642251f4ad52c99df5a": {
+    "sms": -0.06,
+    "email": 0.0829,
+    "notification": -0.0016
+  },
+  "e1ce7abf97eadf53524076bc73a845ebd266347b7eea1de4f8385d27ead42132": {
+    "email": 0.0458,
+    "sms": 0.1763,
+    "notification": 0.0679
+  },
+  "c3b3c57aaa7b33a5a2908101f4e05c5b44a8dfe46c32d0c7b7bf09f3ea3aa67b": {
+    "email": 0.1914,
+    "notification": 0.0746,
+    "sms": 0.386
+  },
+  "8d72a7666388574c1a33ef156a847f4da411e200fe2baee96d9431fcec8f6b6d": {
+    "email": -0.0006,
+    "notification": 0.0602,
+    "sms": 0.0286
+  },
+  "f84c8052c2146bdda018ec7e9eb82397316d6225b52541d990e878f505880781": {
+    "notification": -0.011,
+    "sms": -0.0097,
+    "email": 0.3173
+  },
+  "6f8a4618098cf8c9ebd48e1fe6be546a33c9a870dbccf97bed84478204d2e4cb": {
+    "sms": 0.0069,
+    "notification": 0.0461,
+    "email": 0.0932
+  },
+  "71d8f7d1571f01929c5b3fd39315acb92dd15c89b85fbc40ea96108d577def72": {
+    "email": 0.0343,
+    "notification": 0.0503,
+    "sms": 0.0167
+  },
+  "4611ed7be9ae4e881bd27779bcdf381c0e0cb28ab7d49622f029ae46b6c506bf": {
+    "sms": 0.1709,
+    "notification": -0.0286,
+    "email": 0.0446
+  },
+  "1a39e51d7bd1e286ecf02db592fbf8d139a0fde55b63eb9f999a0f939c8bf191": {
+    "sms": 0.2209,
+    "email": -0.0409,
+    "notification": -0.0266
+  },
+  "f2b8f4ec1df7ce4edc50d559461812d252ae251bb6bde2a52c1b806236355f0c": {
+    "notification": 0.0663,
+    "sms": 0.0196,
+    "email": 0.1333
+  },
+  "e9abb136b1d022b9ab515c14cfd70a4cdc4957681811535ac4347b3e40c6cb72": {
+    "email": -0.0869,
+    "sms": 0.0912,
+    "notification": -0.0136
+  },
+  "2704868efe51a6213de6f112a712bf06f944a3a6b3d15effc03b95b8ae89050b": {
+    "sms": 0.0463,
+    "email": -0.0174,
+    "notification": 0.0582
+  },
+  "fb3a3111644aecebb41f3fc890218f38e694a7f317091967e372634f61d28f02": {
+    "email": 0.1479,
+    "notification": 0.0237,
+    "sms": 0.0392
+  },
+  "4b2d1b9d869eba37b34be8032af3bec83d7dc0f95e2753d81b6a9a159caad42b": {
+    "notification": -0.0252,
+    "sms": 0.0265,
+    "email": 0.0025
+  },
+  "43787ad8dc270b4014d6b53950be1464a957a1b0405c6c13e5503cd68c337a5b": {
+    "email": -0.0354,
+    "notification": 0.0326,
+    "sms": -0.0061
+  },
+  "916ff9583454becd701e43a42cf19aef31dbcf71ec68f76edea146b44cd8a18a": {
+    "email": 0.1148,
+    "notification": 0.0265,
+    "sms": 0.0608
+  },
+  "c0337a7c39bc6c8e1e1027915af3f836aee947e861f679a1e3571d87d77a1be3": {
+    "email": 0.2309,
+    "notification": 0.0106,
+    "sms": 0.0038
+  },
+  "b5f86b7e64a03a305e6b31479e7faf6b17905fd2637206bb233d205932e06131": {
+    "notification": 0.0218,
+    "sms": -0.0435,
+    "email": -0.0717
+  },
+  "145424814c73bef2b373c330ec1e6d071323ec98f1f171aa0724f4edbf57c9db": {
+    "email": 0.0837,
+    "notification": 0.1584,
+    "sms": 0.0424
+  },
+  "41ec222ff9e976a0f58649824bf4e322d93ba339f303308758643c1a50bebf33": {
+    "sms": 0.0279,
+    "email": 0.0301,
+    "notification": 0.2194
+  },
+  "3b25e975c0ea17357a19e6d710d93877855ed7bdd5a2aac7b5898da2c42f9d12": {
+    "email": -0.0805,
+    "notification": -0.0108,
+    "sms": 0.2543
+  },
+  "e3046f3cacda5dbd287c308079a97d846e5de9d044aecc72fae14963efc6863c": {
+    "sms": -0.0741,
+    "email": -0.0558,
+    "notification": 0.1059
+  },
+  "328839d3cb07515972ba65193f3b2b964d1125edc81afeb23ce60e8ac76e3f85": {
+    "email": -0.0057,
+    "notification": 0.0414,
+    "sms": -0.0175
+  },
+  "579fe21bd8078bca0a8c5a5817c210800a1598a0100728adb7c376dcd406042c": {
+    "notification": -0.0343,
+    "email": 0.0499,
+    "sms": -0.0069
+  },
+  "211cc3d6de13fa74373dfbbd3769d80af62c84ac9cf04462a79ba177ac2e610b": {
+    "email": 0.2156,
+    "notification": -0.0567,
+    "sms": -0.0115
+  },
+  "652f733ded9730913d5589c5e42b13100a7d764bdb1f14a5440a20c1de449e95": {
+    "notification": 0.1188,
+    "email": 0.0913,
+    "sms": 0.093
+  },
+  "ef23b9b1f5322a6c0be4ca7045e3ec7e1a369592b8cb5a56169d93b28ebd62a1": {
+    "sms": -0.0466,
+    "notification": -0.0334,
+    "email": 0.0985
+  },
+  "503a538c570e186070f8a99c7f452e5ffcf886c21d414a002264c96a14295649": {
+    "sms": 0.0987,
+    "notification": -0.022,
+    "email": -0.0172
+  },
+  "47f589e2a23a9455f02610dec1830791513d0b5cdf0b45e6b2179a53ffc1d2e4": {
+    "email": 0.0436,
+    "notification": 0.1808,
+    "sms": -0.0111
+  },
+  "22483998f9871251de9da454317daae600f428e5d5d1cedf27d093270d8a7df6": {
+    "notification": -0.0373,
+    "sms": 0.077,
+    "email": -0.0151
+  },
+  "9b4373e631332894d34504bba9ab716ddd12428e0beb1081ba52a9eb11126ed3": {
+    "notification": 0.1484,
+    "email": -0.0248,
+    "sms": 0.0478
+  },
+  "42fd369bfebc47214764d7638fa5221912cf5f64d5316d9d9ebc6b379d9d5105": {
+    "email": 0.0077,
+    "sms": -0.0224,
+    "notification": 0.1659
+  },
+  "0089c9e1002ef6874126a5e2b2a58fa4a3b770945594918bedf0016151b7fd93": {
+    "email": -0.033,
+    "notification": 0.1524,
+    "sms": -0.0262
+  },
+  "1e8b0917d96a709a0260c16ea51beb121ce34c54c70120c6780098d01eedd94b": {
+    "sms": -0.0695,
+    "email": -0.0836,
+    "notification": -0.0674
+  },
+  "6da4b3ed70246ad2ab9ca8bc18365bcba0f865d0a7060594e6eaca7c7d48bcb2": {
+    "notification": -0.102,
+    "sms": 0.0083,
+    "email": -0.0482
+  },
+  "8629010ed8a1775c6635799f0afab073aad30d5175c72f96f2851e0fe6435f5b": {
+    "sms": -0.0376,
+    "notification": 0.171,
+    "email": -0.046
+  },
+  "67e6f7b618a9aa5caaddcc0de277e3111258d81ad317a3664af974ab47f57d53": {
+    "notification": -0.0971,
+    "sms": -0.1062,
+    "email": -0.0522
+  },
+  "67bad2fd34cb87ac58789ff2e473ed5cffe303e583144f09abf94664532dced7": {
+    "notification": 0.1339,
+    "sms": 0.1156,
+    "email": 0.0423
+  },
+  "59d7a455cce16ea2cb91b20cbf78767528ef045b25b1848374a8e60fce4c530f": {
+    "notification": 0.0358,
+    "email": 0.0106,
+    "sms": 0.1426
+  },
+  "6f757d51010345d1a7126c5c10a8924a7d7cbf5b0be05b1db4813744aa5bcd28": {
+    "sms": 0.0292,
+    "notification": -0.0076,
+    "email": 0.0107
+  },
+  "2d52a8ccf70411a3ba9e1030957babab12b86c24096b5273c9f6be971127eff0": {
+    "email": 0.0335,
+    "sms": 0.0862,
+    "notification": 0.0436
+  },
+  "9be5323029dc98fb5b25937b6270250c4c90a8319a5e988ce08aa831b48cb4fc": {
+    "sms": -0.0531,
+    "notification": -0.0431,
+    "email": -0.0643
+  },
+  "eb98f17fc397327a179a57465e34d468157994d8e91e7aca04a3102f09b9d6a3": {
+    "email": 0.0349,
+    "sms": 0.0084,
+    "notification": 0.1617
+  },
+  "43f80ba8223c5066840d89739ba23a590a4644a87451c0322b530aab3a745961": {
+    "notification": 0.0639,
+    "email": 0.5432,
+    "sms": -0.0018
+  },
+  "e6ec999479e9568d5461b24c8eaf77eebad4cf3bfd33d7990247bf68ec5aa955": {
+    "sms": 0.0478,
+    "email": 0.1257,
+    "notification": 0.0472
+  },
+  "60d382c18b284fce044738fbea7cb1e116aa0a30e6027ec272f305adc8ba9966": {
+    "email": 0.0331,
+    "notification": 0.0634,
+    "sms": 0.1356
+  },
+  "8bb32f56deaf1276b3502ee02f826348b10320024c8f8175993f5fc331ff5d38": {
+    "notification": 0.013,
+    "email": -0.0289,
+    "sms": 0.0483
+  },
+  "489af6b444985cf7a92f9218dc4615f822c61a2282da222f3ae35ac1bf28d6ae": {
+    "sms": 0.0652,
+    "email": 0.0284,
+    "notification": -0.0069
+  },
+  "41f69d54677691d636072fba6c66dad52e7fcdb22c3b145c1ceac05e069dbaf4": {
+    "sms": 0.0736,
+    "email": 0.2508,
+    "notification": 0.5165
+  },
+  "38ba5bdf52cbad736cdf0d0ba1f36cbe4e5bb327ad3769b37d9b8a57574870a6": {
+    "notification": 0.2877,
+    "email": -0.0183,
+    "sms": 0.0618
+  },
+  "ffcd7bc87ce269cddd7fcf116bfcce342a8eadc6f85fc5b4e061f4ccdb0190d0": {
+    "sms": -0.0175,
+    "email": -0.0351,
+    "notification": 0.0093
+  },
+  "1ad979baef55bcd6d1419f0ffdcd99ca1fc5a85e8f7438eee67c73158c596250": {
+    "notification": 0.1083,
+    "sms": -0.0544,
+    "email": 0.1298
+  },
+  "6880570c61eba0ad4923f079e4934fc7e33fac2535b68f16f2cdcdd049b6860a": {
+    "notification": -0.063,
+    "email": 0.148,
+    "sms": 0.019
+  },
+  "7ce8825c7ada7267e4275e4a1ca4a745822d7138cb1361c52417396c7915a2b3": {
+    "email": 0.0407,
+    "sms": 0.1053,
+    "notification": 0.0224
+  },
+  "c06f4221225e2462cd83bff90326af99b3fa2109f7557f1ef388451eb31e3d4d": {
+    "email": 0.0105,
+    "sms": 0.1372,
+    "notification": 0.0739
+  },
+  "2089ee84a20cc3cc768fabaf5010b520adae4d2f5772b3bcee0cae48d87ebbe4": {
+    "sms": 0.0339,
+    "notification": 0.0128,
+    "email": -0.0281
+  },
+  "bf51c6db87bdf37e0db414c02f10c131a5e542f6042f925738f30bd7e295bd59": {
+    "sms": 0.1178,
+    "email": 0.0369,
+    "notification": 0.1564
+  },
+  "11b50698435bd59ac90a29b4fbff1c9cb74c0a990b7cf31360a978dbd9f94baa": {
+    "email": 0.0677,
+    "notification": 0.0708,
+    "sms": 0.2808
+  },
+  "f1711338c18a04d766c4c0f2f85342dc955a3243b3d5ccd728c148c612c043ff": {
+    "email": 0.1138,
+    "sms": -0.0352,
+    "notification": -0.1224
+  },
+  "71125171a1b79d2b7d8c89ca42893375f38bb5fca7c782c709436e9c4e7d6eb7": {
+    "notification": -0.0669,
+    "email": -0.0256,
+    "sms": 0.1833
+  },
+  "c93cfcdc847d3617f08d402f3e54dc833a32910109b6d4beb46839ae736edf5c": {
+    "email": -0.0285,
+    "notification": -0.0241,
+    "sms": 0.0871
+  },
+  "ac4250ec98ac2c0e4641bf097cf508b631684ad6776ea0be81ebc7eaf26c17c6": {
+    "notification": -0.0112,
+    "sms": 0.0013,
+    "email": 0.1339
+  },
+  "f96917770f058e8de7cbe8c82a5c0800126b297aeb5e6af8307fb91d0c5c4007": {
+    "notification": 0.1151,
+    "email": -0.0566,
+    "sms": 0.0376
+  },
+  "5be1cdd253aef5b56de9d79869eb91190b03f9bde6fa6b31f9b100bd011ba4bc": {
+    "sms": 0.0605,
+    "notification": 0.1372,
+    "email": 0.058
+  },
+  "af465f076e182848c068f18fa0886326a1339c57b41d09898a4e191611e2162e": {
+    "email": -0.0322,
+    "sms": 0.0109,
+    "notification": 0.306
+  },
+  "7d0ae9cd94bc28c54e07a9a862287e2ffff2a7bd44aecdcd4bd13462f626a832": {
+    "email": 0.0116,
+    "notification": 0.1005,
+    "sms": 0.0966
+  },
+  "80c1e3d92180ab7ceb366f11314eb1f81be21d140b38545120d642781d51eff7": {
+    "sms": 0.0786,
+    "notification": 0.4656,
+    "email": 0.0664
+  },
+  "2084e59a41c9f5460138e8a149cf39494927d288667a5ac478438e35e2aae426": {
+    "email": 0.0386,
+    "sms": 0.0377,
+    "notification": 0.3942
+  },
+  "1f676549bcbda7f4e69af0a4c8e2f395779c3b69483eb389575496c83f73eecc": {
+    "notification": -0.0355,
+    "email": -0.0367,
+    "sms": 0.1358
+  },
+  "327fdd9f323c70cc117e18f2f19839b7efb24ed8b88a8179fb600149f499939d": {
+    "sms": 0.0491,
+    "notification": 0.0822,
+    "email": 0.1175
+  },
+  "a79cd03f121ea86a894fedc24a5adccfe8aa767c82bc13ea957ac0740ce0e5c1": {
+    "email": 0.0359,
+    "sms": 0.0583,
+    "notification": 0.3366
+  },
+  "80280c938c06830ab6f6f0a649fa0fdfaf3978a4dff1cf07f26eeee1dd87f202": {
+    "sms": 0.1131,
+    "notification": 0.1265,
+    "email": 0.1773
+  },
+  "73b59cd67450ec97745467aa76b0ddd369c400c9d961488529ae60242a0dcc8b": {
+    "sms": 0.0209,
+    "notification": 0.165,
+    "email": 0.0401
+  },
+  "aa9a310afc840f0af81e421f6ac8bc55d0abe3f787cbc486eadb30b2f401e9d5": {
+    "sms": 0.0233,
+    "email": 0.2259,
+    "notification": 0.0014
+  },
+  "a21c0be5ba20ef9e9424ede947d9abfcea4724ce1032ec18db81f03d9f3184a9": {
+    "notification": 0.0713,
+    "email": 0.0374,
+    "sms": 0.0598
+  },
+  "bb6dc3cc05be6096cca2209e3e79bc5a4dbac1ee91b8d47e5766fdd2dca688b0": {
+    "sms": -0.0472,
+    "email": 0.1479,
+    "notification": 0.0215
+  },
+  "4236369b09524d7264b6d5ff36b36a10bf9915cb13122f42df81e0b2b5516cac": {
+    "email": 0.1778,
+    "sms": 0.0374,
+    "notification": -0.028
+  },
+  "68e45cc1b4a2a67372958f8d61d6b0ea23da9981c1a77acdac6e3b7ffced0f4f": {
+    "email": 0.2518,
+    "sms": 0.0605,
+    "notification": 0.0427
+  },
+  "d60a490fbfb6d9b522b0625d5872bfb171a496ca38dcc0b2c91eb88c29792641": {
+    "email": -0.0776,
+    "sms": 0.2806,
+    "notification": -0.0359
+  },
+  "1f34c9dbb7c7e54db1a0fd65e5b0e1ed1f5ed5d41001e5747cc22c3c24ebbd49": {
+    "email": 0.0596,
+    "sms": -0.0235,
+    "notification": 0.0849
+  },
+  "b0af48b379ebf2be62cf013e1d7528dc5b4b8fa7a0339e0906aed4cf049791b6": {
+    "sms": 0.0212,
+    "email": 0.277,
+    "notification": 0.0383
+  },
+  "f5070a91883e2994e6aae36e3cdbfb0d7cf83a214ddad03affd7f3b73d0ae081": {
+    "email": -0.1401,
+    "notification": 0.1605,
+    "sms": -0.0265
+  },
+  "c565fead2251ab9d8113fb2a84067177e22c3565560d209c6bd5f9fc38f0f4ed": {
+    "sms": -0.0332,
+    "email": 0.0134,
+    "notification": 0.1883
+  },
+  "828dfa9a71b4d36e9590b3a62f03d1870cc3bdd2b13b182861eca6e463658ae7": {
+    "notification": -0.0886,
+    "sms": 0.0926,
+    "email": -0.0455
+  },
+  "bc0350d9cdacb5ab2327793acf78701ea656c16f920dcf369407c56fc9220584": {
+    "email": 0.0106,
+    "notification": 0.0894,
+    "sms": 0.0096
+  },
+  "f322e75ae882ee494334330cd46afad07e805a6059c23ad3083f04d33f35da1c": {
+    "sms": 0.0035,
+    "notification": 0.0362,
+    "email": 0.2302
+  },
+  "80f88496fbfa8971cc1547fc542bad2c1693cda63e3b6767bb7ef4636c5beb44": {
+    "sms": -0.0122,
+    "notification": -0.0052,
+    "email": 0.0845
+  },
+  "7149656924ba2a667ffb1818f81eb483db1b3a336fb23cb50a65d8b40548deef": {
+    "email": 0.0103,
+    "notification": 0.1619,
+    "sms": 0.0556
+  },
+  "f1e978543c24f876df9f768d09b647bc35433fb204310e7bcbdc6981606c982b": {
+    "email": 0.1286,
+    "notification": 0.006,
+    "sms": 0.0286
+  },
+  "1e44e2f1d2f6b1fc6bdc88dd4cbdbfa740227355a46a26501012144c89643ea3": {
+    "notification": 0.0459,
+    "email": 0.2929,
+    "sms": -0.025
+  },
+  "17b9f5ca55f957f8073fc3a8de9d43a5fb311bd68e4d452ed46612241e555ba6": {
+    "email": 0.0653,
+    "sms": 0.1199,
+    "notification": -0.0752
+  },
+  "0f3cc407600bbd039dc4f92d01d5c36e884154e974eba1f2356c4963ad2020ae": {
+    "email": -0.0706,
+    "sms": -0.0745,
+    "notification": -0.0587
+  },
+  "fd3b841c855df2d9537d5f5797a734ea9410c54624210df76d76cda3e5a9083c": {
+    "notification": 0.1821,
+    "email": 0.0488,
+    "sms": 0.0122
+  },
+  "d763e970a3d4bfec752e310947fbb5ad5a6657b5784b8534b384b742967564c4": {
+    "notification": -0.0441,
+    "email": 0.005,
+    "sms": 0.4575
+  },
+  "726e5148321d78b8fcacc09dd4651ef8ad906903501a37eea6aca67ed24c6245": {
+    "sms": 0.0601,
+    "notification": 0.2793,
+    "email": 0.0225
+  },
+  "5a4ef4c41aa3ed17e32513e0be4c75b8db224ada990c2c460952816399c105c2": {
+    "notification": 0.0368,
+    "email": 0.1146,
+    "sms": 0.1721
+  },
+  "a5d3f1b60520f4e1bbc93d6f8985f8dc50b74ad77675d19204e38e8af953eedf": {
+    "email": 0.0387,
+    "sms": 0.0553,
+    "notification": 0.1493
+  },
+  "c22b07b471da23c12d363e4e58ea6a4cd0ef2ff6276325b5b35ceb9e609db2cb": {
+    "sms": 0.0327,
+    "notification": 0.4432,
+    "email": 0.0421
+  },
+  "bac96c2f5a14fc352de96c5a1a1d5bc1ab24021f414d14b6331d438d4d8a11e0": {
+    "sms": 0.1664,
+    "email": -0.0319,
+    "notification": 0.0122
+  },
+  "7ff477e9d274ac862f8dae488202385071ff28b5a4ddb1d492dced4c1dcd8d12": {
+    "notification": 0.1713,
+    "sms": 0.0362,
+    "email": 0.0276
+  },
+  "9e9ed28cbd49ddcebbe455034fcd5812b42febdcb9826b336d422cc836eeef6f": {
+    "notification": 0.0229,
+    "sms": 0.067,
+    "email": 0.0196
+  },
+  "87d0442b56a2ef42108b3f5e08afb66089f4b9d811c9b560417432e8ca3946f9": {
+    "sms": 0.0363,
+    "notification": 0.1323,
+    "email": 0.101
+  },
+  "35dd220bea73b8a383d961c4e566c4c03b4ea270f80dfb0ccb80b09fe1baf4c7": {
+    "notification": 0.128,
+    "sms": 0.0564,
+    "email": 0.0597
+  },
+  "a67baa1af8a341d176718d4158c639cf0617eda943d24b9b69e2ee01112ef947": {
+    "notification": 0.1082,
+    "sms": 0.1624,
+    "email": 0.0502
+  },
+  "41d213605e614e75218b9361d6ad0a1ab11439f3a52ad1717dbe2b36eeec6c6c": {
+    "email": 0.0706,
+    "sms": -0.0407,
+    "notification": 0.2121
+  },
+  "481becafc7158257b960485d289d665db8b81a1d9c1f34f05ce5d2db73b1cd1a": {
+    "email": 0.0455,
+    "sms": 0.0107,
+    "notification": 0.5044
+  },
+  "f5386a83447a87ba0c4a7fd4fef5e32783a466b42f1774ffde0fe03717e72e21": {
+    "email": -0.047,
+    "sms": 0.0332,
+    "notification": 0.0634
+  },
+  "7da8a513fc4d81755660a2bdd0c3f885fa2bc65cfa551329c1864237fc127dfb": {
+    "email": 0.0157,
+    "sms": 0.2038,
+    "notification": -0.0617
+  },
+  "1f05de514ba9442af275559ad2b02f8d672568433e6480ede0fc4fd4fe2d09f2": {
+    "notification": -0.049,
+    "sms": -0.0369,
+    "email": 0.0673
+  },
+  "bb88768eef4ba8aee2f4fadf7af493af5d87391d181c61339166960e5b55f6d9": {
+    "sms": 0.0194,
+    "email": 0.05,
+    "notification": 0.1184
+  },
+  "0c9d3dbc1da9023b51bc3a5da091028d7a8f531432d2cd4bced2a21e8bef8329": {
+    "sms": 0.0958,
+    "notification": -0.011,
+    "email": 0.0253
+  },
+  "9ab823f2815b0d0cd1da41f325c82911b1f682bd0c38ceb791739a246714c1d3": {
+    "notification": 0.1546,
+    "email": 0.0827,
+    "sms": 0.0988
+  },
+  "c2f280ebe5adac9eb797effae1727ec21af2dffb5bc2491b5657d4bd65fd6bc6": {
+    "notification": 0.1992,
+    "sms": -0.0042,
+    "email": -0.0003
+  },
+  "d0a77f11baea6d0325f0225dc5b28c651c9e080238cff0dd69c168e364038ba6": {
+    "notification": -0.0259,
+    "email": -0.0382,
+    "sms": 0.0771
+  },
+  "7621583d78a2fd8e5143cb0b7c6522d2ef69f7a164dfbdec8efe7fee21dde28b": {
+    "email": -0.0278,
+    "sms": 0.0409,
+    "notification": 0.0351
+  },
+  "dc3dc0072fa1598c7acc1c5eb79cd956f5ddd270b275f044d9cbd5d793f6e585": {
+    "email": -0.0894,
+    "notification": -0.0372,
+    "sms": -0.0407
+  },
+  "cfb12614e2968ddb5acdcaf4eb1cc84e0a14540e122e7406d5dd8c2a4a3fb6da": {
+    "sms": -0.006,
+    "email": -0.036,
+    "notification": 0.1475
+  },
+  "1fd1b01a8020d78c3db9bb25378f14f211a199ca67f2a3953d9281fccec75834": {
+    "notification": 0.1855,
+    "sms": 0.02,
+    "email": 0.0976
+  },
+  "e6a7409a09385053ebafe0eff028c3ccdfc5c0a212b18fb0c80000575ea66272": {
+    "notification": 0.0282,
+    "email": 0.0421,
+    "sms": 0.2492
+  },
+  "0e16d038e11121004ca37fb44117b012c3bca474617f7ee4e220174115f4c620": {
+    "email": 0.0091,
+    "notification": 0.0329,
+    "sms": 0.2039
+  },
+  "b56f394cf31e32f17f575376d1db68b035413ce5a913576802f17c7db44010b2": {
+    "email": 0.0141,
+    "sms": 0.0334,
+    "notification": 0.161
+  },
+  "8c294877e50b247a5f60a050c52c7f846f135ff98f0dae0be385df147adb0316": {
+    "notification": 0.1492,
+    "email": -0.0215,
+    "sms": -0.0042
+  },
+  "dbce076089727a31e479c09c2dc3240465cd87b8342354941dd8f448ecbc72ec": {
+    "email": -0.0182,
+    "notification": 0.0874,
+    "sms": 0.0139
+  },
+  "35f68572e38f1668a0be377b27320292e24459753a30bb8df718913b93c53b4b": {
+    "notification": 0.0115,
+    "email": 0.0056,
+    "sms": 0.0471
+  },
+  "f53c08960a14c69022b8e03d385783eabf3174516e1e2dddebd22b080b4e209e": {
+    "sms": 0.1781,
+    "notification": 0.1382,
+    "email": -0.027
+  },
+  "8b80e7efe7ca7d09958b886f68f85412e5dbb0ce459c6bab6885d7a0b8cd026b": {
+    "sms": 0.2468,
+    "notification": -0.0267,
+    "email": 0.0417
+  },
+  "5ae6ce1e5dbe42c2ea49f5d151e9657973e428bc509602fbcb6ceb7502a27760": {
+    "sms": 0.0986,
+    "notification": 0.3235,
+    "email": -0.0044
+  },
+  "bfcb7adb0d9241660777434d0f8eead746eaef3b6e67e3657a732316f311aa73": {
+    "email": -0.0371,
+    "sms": -0.0189,
+    "notification": 0.0122
+  },
+  "fac57393f3307ecf41a9861c29affeac3693f5c27582cc0eaba20ca6d6c675b6": {
+    "notification": -0.0349,
+    "email": -0.0542,
+    "sms": 0.2096
+  },
+  "7406b9d64fb0139fa60059ce997321546975d2a56b87e9689b89b0e0f0a711bf": {
+    "sms": 0.2685,
+    "email": 0.1989,
+    "notification": 0.0555
+  },
+  "0e41f71c152dffd45e10e4f2c7671d3b07d4f234c26c0e28b3c206990171e3a6": {
+    "notification": 0.0442,
+    "email": 0.1252,
+    "sms": -0.0018
+  }
+}

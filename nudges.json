@@ -1,0 +1,12 @@
+{
+  "tired": [
+    {"text": "Try a banana + peanut butter combo", "priority": 1.0},
+    {"text": "Refuel with Greek yogurt and berries", "priority": 0.9}
+  ],
+  "hungry": [
+    {"text": "Nuts are a portable, satiating snack", "priority": 0.95}
+  ],
+  "stressed": [
+    {"text": "Take 5 minutes to breathe deeply and reset", "priority": 0.9}
+  ]
+}

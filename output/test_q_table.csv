@@ -1,0 +1,5 @@
+state,nudge_type,q_value
+{'time_of_day': 'morning'},reminder,0.0
+{'time_of_day': 'morning'},tip,0.0
+{'time_of_day': 'morning'},notification,0.0
+{'time_of_day': 'morning'},alert,0.0

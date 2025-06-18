@@ -1,0 +1,10 @@
+state,nudge_type,Q_value
+hungry,drink_water,0.5391777054948864
+hungry,call_friend,0.36490221029413644
+hungry,go_walk,0.3472354479629781
+tired,drink_water,0.5987291300074107
+tired,go_walk,0.4570142911099777
+tired,call_friend,0.4445084083436165
+bored,call_friend,0.3291805853717676
+bored,drink_water,0.5190033218200393
+bored,go_walk,0.39124733882390733

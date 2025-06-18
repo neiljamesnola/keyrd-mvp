@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KeyRD Contextual State and Action Payload",
+  "description": "Represents a full state-action-reward snapshot in the simulated or real-time KeyRD system.",
+  "type": "object",
+  "required": ["user_id", "timestamp", "context", "action_taken", "reward_received", "done"],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Unique user identifier"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of the state snapshot"
+    },
+    "context": {
+      "type": "object",
+      "required": ["steps", "hr", "sleep_quality", "stress", "fatigue", "motivation", "stage_of_change", "location_type"],
+      "properties": {
+        "steps": { "type": "integer", "minimum": 0 },
+        "hr": { "type": "number", "minimum": 30, "maximum": 220 },
+        "sleep_quality": { "type": "number", "minimum": 0, "maximum": 10 },
+        "sleep_duration": { "type": "number", "minimum": 0, "maximum": 16 },
+        "hr_variability": { "type": "number", "minimum": 0 },
+        "stress": { "type": "number", "minimum": 0, "maximum": 1 },
+        "fatigue": { "type": "number", "minimum": 0, "maximum": 1 },
+        "motivation": { "type": "number", "minimum": 0, "maximum": 1 },
+        "goal_salience": { "type": "number", "minimum": 0, "maximum": 1 },
+        "readiness": { "type": "number", "minimum": 0, "maximum": 1 },
+        "stage_of_change": {
+          "type": "integer",
+          "enum": [1, 2, 3, 4, 5],
+          "description": "Transtheoretical Model: 1=Precontemplation, 2=Contemplation, 3=Preparation, 4=Action, 5=Maintenance"
+        },
+        "location_type": {
+          "type": "string",
+          "enum": ["home", "gym", "store", "work", "clinic", "travel", "other"]
+        },
+        "gps_cluster": {
+          "type": "string",
+          "description": "User location cluster label"
+        },
+        "last_nudge_type": {
+          "type": "string",
+          "enum": ["reminder", "motivate", "educate", "reward", "none"]
+        },
+        "nudge_history_vector": {
+          "type": "array",
+          "items": { "type": "integer" },
+          "description": "Encodes recent nudge history"
+        },
+        "emr_vector": {
+          "type": "array",
+          "items": { "type": "number" },
+          "description": "Clinical embedding from structured medical records"
+        },
+        "has_diabetes": { "type": "boolean" },
+        "has_hypertension": { "type": "boolean" },
+        "num_meds": { "type": "integer", "minimum": 0 },
+        "recent_reward": { "type": "number", "minimum": 0, "maximum": 1 },
+        "novelty_saturation": { "type": "number", "minimum": 0, "maximum": 1 },
+        "engagement": { "type": "number", "minimum": 0, "maximum": 1 },
+        "cumulative_reward": { "type": "number" },
+        "time_of_day": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 23,
+          "description": "Hour of day"
+        },
+        "day_of_week": {
+          "type": "string",
+          "enum": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        },
+        "com_b": {
+          "type": "object",
+          "properties": {
+            "capability": { "type": "number", "minimum": 0, "maximum": 1 },
+            "opportunity": { "type": "number", "minimum": 0, "maximum": 1 },
+            "motivation": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        }
+      }
+    },
+    "action_taken": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3,
+      "description": "Discrete action index (e.g., rest, motivate, educate, reminder)"
+    },
+    "reward_received": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Reward signal from environment"
+    },
+    "done": {
+      "type": "boolean",
+      "description": "Episode termination flag"
+    }
+  }
+}

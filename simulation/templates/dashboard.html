@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KeyRD Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <h2>KeyRD User Dashboard</h2>
+
+  <label for="userSelect">Select User:</label>
+  <input type="text" id="userSelect" placeholder="Paste user_id here">
+  <button onclick="refreshCharts()">Load</button>
+  <div id="statusMsg"></div>
+
+  <h3>Engagement Over Time</h3>
+  <canvas id="engagementChart" height="200"></canvas>
+
+  <h3>Reward Over Time</h3>
+  <canvas id="rewardChart" height="200"></canvas>
+
+  <h3>Arm Selection Counts</h3>
+  <canvas id="armChart" height="200"></canvas>
+
+  <script>
+    let charts;
+
+    async function fetchData(user_id) {
+      const res = await fetch(`/dashboard/data?user_id=${user_id}`);
+      if (!res.ok) {
+        document.getElementById("statusMsg").textContent = "Failed to load data. Check the user ID.";
+        throw new Error("Network response was not ok");
+      }
+      return await res.json();
+    }
+
+    function setupCharts() {
+      const engagementChart = new Chart(document.getElementById('engagementChart'), {
+        type: 'line',
+        data: {
+          labels: [],
+          datasets: [{
+            label: 'Engagement',
+            data: [],
+            borderColor: 'blue',
+            fill: false,
+            tension: 0.2
+          }]
+        }
+      });
+
+      const rewardChart = new Chart(document.getElementById('rewardChart'), {
+        type: 'line',
+        data: {
+          labels: [],
+          datasets: [{
+            label: 'Reward',
+            data: [],
+            borderColor: 'green',
+            fill: false,
+            tension: 0.2
+          }]
+        }
+      });
+
+      const armChart = new Chart(document.getElementById('armChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Arm 0', 'Arm 1', 'Arm 2'],
+          datasets: [{
+            label: 'Selections',
+            data: [0, 0, 0],
+            backgroundColor: ['#3498db', '#2ecc71', '#e74c3c']
+          }]
+        },
+        options: {
+          scales: {
+            y: { beginAtZero: true }
+          }
+        }
+      });
+
+      return { engagementChart, rewardChart, armChart };
+    }
+
+    async function refreshCharts() {
+      const user_id = document.getElementById('userSelect').value.trim();
+      if (!user_id) {
+        document.getElementById("statusMsg").textContent = "Please enter a user ID.";
+        return;
+      }
+
+      try {
+        const data = await fetchData(user_id);
+        const { labels, engagement, rewards, arms } = data;
+
+        charts.engagementChart.data.labels = labels;
+        charts.engagementChart.data.datasets[0].data = engagement;
+
+        charts.rewardChart.data.labels = labels;
+        charts.rewardChart.data.datasets[0].data = rewards;
+
+        const counts = [0, 0, 0];
+        arms.forEach(a => counts[a]++);
+        charts.armChart.data.datasets[0].data = counts;
+
+        Object.values(charts).forEach(c => c.update());
+        document.getElementById("statusMsg").textContent = `Loaded data for user: ${user_id}`;
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    window.onload = () => {
+      charts = setupCharts();
+    };
+  </script>
+</body>
+</html>

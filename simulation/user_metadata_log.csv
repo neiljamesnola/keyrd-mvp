@@ -1,0 +1,11 @@
+user_id,timestamp,consent,age_range,gender,ethnicity
+bc93b99f-a256-49aa-8c24-1a02f4c6ae75,2025-06-12T22:27:32.271267,True,18-24,Female,White
+2579d54a-1845-4b6d-8e82-d274aeebcfe5,2025-06-12T23:35:42.215648,False,Unknown,Unknown,Unknown
+3fb0597f-add1-4442-8886-5403302c1790,2025-06-12T23:45:19.448714,False,Unknown,Unknown,Unknown
+d856e8b0-2162-42b6-8916-4f3573b6e9f3,2025-06-12T23:52:00.135613,False,Unknown,Unknown,Unknown
+8342342a-720d-42e0-a8cd-4f7709f403da,2025-06-12T23:56:54.000492,False,Unknown,Unknown,Unknown
+5927eac0-c5d3-4250-abce-65045c52bb7e,2025-06-13T00:01:10.437256,False,Unknown,Unknown,Unknown
+34cac045-6847-4ef8-83ad-0c22d212edc2,2025-06-13T00:04:54.236853,False,Unknown,Unknown,Unknown
+697545cf-5a16-4f35-93e5-53dc78d8ede2,2025-06-13T00:07:55.365337,False,Unknown,Unknown,Unknown
+e5216bf2-1320-459d-a543-2411f2469bf0,2025-06-13T00:46:51.172731+00:00,True,Unknown,Unknown,Unknown,stress_eater
+55e559ca-153a-47a8-9f12-e0220c3a05c8,2025-06-13T00:47:05.993765+00:00,True,Unknown,Unknown,Unknown,stress_eater

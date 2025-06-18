@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <h1>Your Current State: {{ state }}</h1>
+    <button id="get-nudge">Get Nudge</button>
+    <div id="nudge-display" data-state="{{ state }}"></div>
+</body>
+</html>
+<p>Welcome, {{ current_user.username }}! <a href="{{ url_for('logout') }}">Logout</a></p>
