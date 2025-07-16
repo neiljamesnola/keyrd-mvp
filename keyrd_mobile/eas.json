@@ -1,0 +1,12 @@
+{
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "env": {
+          "EXPO_DEV_CLIENT": "1"
+        }
+      }
+    }
+  }
+}

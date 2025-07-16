@@ -1,0 +1,29 @@
+# keyrd_backend/app/routes/nudges.py
+from flask import Blueprint, request, jsonify
+from app.utils.push import send_push_notification
+from app.models import db, NudgeLog  # Assuming you have a model for logging
+
+nudges_bp = Blueprint("nudges", __name__)
+
+@nudges_bp.route('/create_nudge', methods=['POST'])
+def create_nudge():
+    data = request.json
+    user_id = data.get("user_id")
+    goal = data.get("goal")
+    message = data.get("message")
+    token = data.get("expo_push_token")
+
+    if not all([user_id, goal, message, token]):
+        return jsonify({"error": "Missing required fields"}), 400
+
+    # Optional: Save to DB
+    new_nudge = NudgeLog(user_id=user_id, goal=goal, message=message)
+    db.session.add(new_nudge)
+    db.session.commit()
+
+    # Trigger push
+    try:
+        send_push_notification(token, title="New Nudge 💡", body=message)
+        return jsonify({"status": "success"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
